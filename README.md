@@ -1833,6 +1833,11 @@ Web Application Deployed: Este repositorio es donde se aloja el enlace a la apli
 
 
 
+Fake-API: Este repositorio contiene la API simulada que hemos desplegado para que funcione con nuestra Single Page Application. La API simulada es esencial para simular las interacciones del servidor y proporcionar una representación realista de cómo funcionaría la aplicación en un entorno de producción. Esta API nos permite probar y depurar nuestra aplicación antes de conectarla a una API de producción real. Al desplegar esta API, podemos asegurarnos de que nuestra aplicación funcione correctamente y maneje las respuestas del servidor de manera eficiente.
+
+https://github.com/upc-aplicaciones-web-grupo-4/Fake-API
+
+
 
 Como equipo, hemos dividido nuestro trabajo en varios repositorios para gestionar de manera más eficiente el código y facilitar la colaboración. Esta estructura nos permite centrarnos en tareas específicas sin interferir con el trabajo de los demás. Además, nos ayuda a seguir los cambios y a identificar problemas de manera eficaz, ya que cada cambio está asociado a una tarea específica en un repositorio determinado. Esta organización en GitHub es un reflejo de nuestro compromiso con la eficiencia, la colaboración y la calidad en nuestro proyecto.
 
@@ -2008,7 +2013,7 @@ Este primer Sprint solo trata la implementación del landing page, por lo que no
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-Para llevar a cabo la implementación automática de nuestra Landing Page, empleamos Github Pages. Esta herramienta facilita la creación de sitios web a partir de un repositorio público que contiene el código utilizado para desarrollar la página. Puedes visitar nuestra Landing Page en el siguiente enlace:https://upc-open-source-ninja-code.github.io/Landing-Page/assets/indexs/indexES.html
+Para llevar a cabo la implementación automática de nuestra Landing Page, empleamos Github Pages. Esta herramienta facilita la creación de sitios web a partir de un repositorio público que contiene el código utilizado para desarrollar la página. Puedes visitar nuestra Landing Page en el siguiente enlace:https://upc-open-source-ninja-code.github.io/Landing-Page/index.html
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint.
 Para la realización de los commits de nuestro primer Sprint, hemos hecho uso de la herramienta Visual Studio Code, además del uso de Git. Uno de los integrantes realizó un primer commit para la creación del repositorio, luego utilizando Git clonamos el repositorio, para luego realizar los cambios en Visual Code y crear los branches correspondientes a dichos cambios, para finalmente realizar el commit, el cual deberá ser revisado dentro del repositorio de Github.
