@@ -1917,7 +1917,7 @@ Los pasos que seguimos:
 2.	Dentro del repositorio, accedimos a la pestaña de "Settings" y buscamos la sección denominada "Pages" en el menú lateral.
 3.	En la sección "Pages", seleccionamos la rama main desde la cual se desplegará la landing page.
 4.	Después de haber seleccionado la rama, confirmamos los cambios realizados, y GitHub realizo el proceso de despliegue de la landing page.
-5.	Una vez que el proceso de despliegue finalizó, GitHub nos proporcionó el enlace para ver nuestra landing page publicada ([https://upc-open-source-ninja-code.github.io/Landing-Page/index.html]( https://upc-open-source-ninja-code.github.io/Landing-Page/index.html)).
+5.	Una vez que el proceso de despliegue finalizó, GitHub nos proporcionó el enlace para ver nuestra landing page publicada ([https://upc-aplicaciones-web-grupo-4.github.io/LandingPageAppWeb/]( https://upc-aplicaciones-web-grupo-4.github.io/LandingPageAppWeb/)).
 
 
 Frontend Web Applications: Para desplegar las aplicaciones web de frontend, utilizaremos Vercel. Este servicio nos permitió  alojar nuestras aplicaciones directamente desde nuestro repositorio en GitHub. 
