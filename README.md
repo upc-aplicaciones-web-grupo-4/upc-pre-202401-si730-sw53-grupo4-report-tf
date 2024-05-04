@@ -1802,7 +1802,7 @@ https://structurizr.com/
 
 Para garantizar la eficiencia y evitar conflictos en el desarrollo del proyecto, los productos de NinjaCode se gestionaron en una organización de GitHub.
 
-NinjaCode organization: https://github.com/upc-open-source-ninja-code
+NinjaCode organization: https://github.com/upc-aplicaciones-web-grupo-4
 
 Esta organización sirve como un espacio centralizado donde todos los miembros del equipo pueden acceder y contribuir al código del proyecto. Dentro de esta organización, se encuentran los repositorios correspondientes a cada aspecto del proyecto. Cada repositorio tiene un propósito específico y juntos forman la estructura completa del proyecto.
 
@@ -1810,27 +1810,27 @@ A continuación, se presentan los repositorios:
 
 Project Report: Este repositorio contiene el informe del proyecto. En él se documentan todos los aspectos del proyecto, desde la concepción de la idea hasta la implementación final. Este informe es crucial para mantener a todos los miembros del equipo al tanto del progreso del proyecto y para proporcionar una referencia para futuras mejoras o modificaciones. 
 
-https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp
+https://github.com/upc-aplicaciones-web-grupo-4/upc-pre-202401-si730-sw53-grupo4-report-tp
 
 
 Landing Page: Este repositorio contiene el código fuente de la página de inicio del proyecto. La página de inicio es esencial para proporcionar a los usuarios una visión general de lo que ofrece el proyecto y para guiarlos a través de las diferentes características y funcionalidades disponibles.
 
-https://github.com/upc-open-source-ninja-code/Landing-Page
+https://github.com/upc-aplicaciones-web-grupo-4/LandingPageAppWeb
 
 
 Single Page Application: Este repositorio contiene el código fuente de la aplicación web principal del proyecto. Esta aplicación es el núcleo del proyecto y es donde los usuarios interactúan con las principales características y funcionalidades del proyecto.
 
-https://github.com/upc-open-source-ninja-code/Single-Page-Application
+https://github.com/upc-aplicaciones-web-grupo-4/Single-Page-Application-APW
 
 
 Acceptance Test: Este repositorio contiene las pruebas de aceptación del proyecto. Estas pruebas son esenciales para garantizar que todas las características y funcionalidades del proyecto funcionan como se esperaba y para identificar y corregir cualquier problema o error que pueda surgir.
 
-https://github.com/upc-open-source-ninja-code/Acceptance-Test
+https://github.com/upc-aplicaciones-web-grupo-4/Acceptance-Test
 
 
 Web Application Deployed: Este repositorio es donde se aloja el enlace a la aplicación web desplegada del proyecto. Es donde se proporciona un enlace directo a la versión en línea de la aplicación, que ha sido desplegada utilizando el servicio de GitHub Pages. Este enlace permite a los usuarios acceder a la aplicación en un entorno de producción desde cualquier lugar y en cualquier momento. Este repositorio es esencial para aumentar la accesibilidad y usabilidad del proyecto, ya que permite que la aplicación sea accesible a una audiencia global en cualquier momento.
 
-https://github.com/upc-open-source-ninja-code/Web-Aplication-Deployed
+
 
 
 
