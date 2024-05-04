@@ -2093,6 +2093,7 @@ Lo alcanzado en este sprint es la implementación de
 <img src="images/evidence-spring2-1.png">
 <img src="images/evidence-spring2-2.png">
 <img src="images/evidence-spring2-3.png">
+
 <img src="images/evidence-spring2-4.png">
 <img src="images/evidence-spring2-5.png">
 <img src="images/evidence-spring2-6.png">
