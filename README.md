@@ -2173,6 +2173,466 @@ Para la realización de los commits de nuestro segundo Sprint, hemos hecho uso d
 <img src="images/collaboration.png">
 
 
+#### 5.3.2.   Sprint 3
+
+##### 5.2.3.1. Sprint Planning 3.
+|Sprint #|Sprint 3|
+| - | - |
+|**Sprint Planning Background**||
+|Date|29-05-2024|
+|Time|22:00|
+|Location|Reunión realizada mediante Discord|
+|Prepared By|Astuyauri Calderon Jherson David|
+|Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian/Lobato Pozo Sebastian Valente/Lostaunau Pereira Estéfano Sebastián	/Quispesivana Torres Claudio Sandro|
+|**Sprint Goal & User Stories**||
+|Sprint 3 Goal|Lograr una primera implementación de la API rest para HormonalCare.|
+|Sprint 3 Velocity|45|
+|Sum of Story Points|40|
+
+
+##### 5.2.3.2. Sprint Backlog 3.
+#### En la tercera entrega de nuestro proyecto, realizamos la implementación de la primera versión de la API REST, además de agregar algunas funcionalidades al frontend de nuestra aplicación.
+
+| ID   | User Story                           | Work-Item / Task                                 | Description                                                                                                           | Estimation (Hours) | Assigned To | Status   |
+|------|--------------------------------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------------|-------------|----------|
+| US51 | Gestión de Medicamentos              | T01: Diseño del endpoint de medicamentos         | Diseñar el endpoint para la gestión de medicamentos, considerando operaciones de CRUD.                                | 4                  | Sebastian   | Done     |
+|      |                                      | T02: Implementación del endpoint de medicamentos | Implementar el endpoint para agregar, obtener, actualizar y eliminar medicamentos en la base de datos.                | 10                 | Sebastian   | Done     |
+|      |                                      | T03: Pruebas del endpoint de medicamentos        | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de medicamentos.     | 4                  | Jherson     | Done     |
+| US52 | Gestión de Receta Médica             | T01: Diseño del endpoint de receta médica        | Diseñar el endpoint para la gestión de recetas médicas , considerando operaciones de CRUD.                       | 4                  | Estefano    | Done     |
+|      |                                      | T02: Implementación del endpoint de receta médica  | Implementar el endpoint para agregar, obtener, actualizar y eliminar recetas médicas en la base de datos.       | 10                 | Jherson    | Done     |
+|      |                                      | T03: Pruebas del endpoint de receta médica        | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de recetas médicas.    | 4                  | Luis     | Done     |
+| US53 | Gestión de Tipos de Medicamentos     | T01: Diseño del endpoint de tipos de medicamentos | Diseñar el endpoint para la gestión de tipos de medicamentos, considerando operaciones de CRUD.                       | 4                  | Sandro      | Done     |
+|      |                                      | T02: Implementación del endpoint de tipos de medicamentos | Implementar el endpoint para agregar, obtener, actualizar y eliminar tipos de medicamentos en la base de datos.       | 10                 | Sandro      | Done     |
+|      |                                      | T03: Pruebas del endpoint de tipos de medicamentos | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de tipos de medicamentos. | 4                  | Jherson     | Done     |
+| US54 | Gestión de Razones de Consulta       | T01: Diseño del endpoint de razones de consulta  | Diseñar el endpoint para la gestión de razones de consulta, considerando operaciones de CRUD.                         | 4                  | Luis        | Done     |
+|      |                                      | T02: Implementación del endpoint de razones de consulta | Implementar el endpoint para agregar, obtener, actualizar y eliminar razones de consulta en la base de datos.         | 10                 | Luis        | Done     |
+|      |                                      | T03: Pruebas del endpoint de razones de consulta | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de razones de consulta. | 4                  | Jherson     | Done     |
+| US55 | Gestión de Tratamientos              | T01: Diseño del endpoint de tratamientos         | Diseñar el endpoint para la gestión de tratamientos médicos, considerando operaciones de CRUD.                        | 4                  | Estefano    | Done     |
+|      |                                      | T02: Implementación del endpoint de tratamientos | Implementar el endpoint para agregar, obtener, actualizar y eliminar tratamientos médicos en la base de datos.        | 10                 | Sebastian    | Done     |
+|      |                                      | T03: Pruebas del endpoint de tratamientos        | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de tratamientos.     | 4                  | Sandro     | Done     |
+|      |                                 | T03: Pruebas del endpoint de tratamientos           | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de tratamientos. | 4                  | Sandro     | Done   |
+| US56 | Gestión de Perfiles             | T01: Diseño del endpoint de perfiles               | Diseñar el endpoint para la gestión de perfiles de pacientes y doctores, considerando operaciones de CRUD.       | 4                  | Luis       | Done|
+|      |                                 | T02: Implementación del endpoint de perfiles       | Implementar el endpoint para agregar, obtener, actualizar y eliminar perfiles de pacientes y doctores.            | 10                 | Luis       | Pending|
+|      |                                 | T03: Pruebas del endpoint de perfiles              | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de perfiles.    | 4                  | Jherson    | Pending|
+| US57 | Gestión de Calendario          | T01: Diseño del endpoint de calendario             | Diseñar el endpoint para la gestión de eventos y citas médicas en el calendario, considerando operaciones de CRUD. | 4                  | Estefano   | Done|
+|      |                                 | T02: Implementación del endpoint de calendario     | Implementar el endpoint para agregar, obtener, actualizar y eliminar eventos y citas médicas en el calendario.  | 10                 | Jherson  | Done|
+|      |                                 | T03: Pruebas del endpoint de calendario            | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de calendario.  | 4                  | Sebastian  | Done|
+| US58 | Gestión de Identidad y Acceso  | T01: Diseño del endpoint de gestión de identidad y acceso | Diseñar el endpoint para la gestión de cuentas de usuario y permisos, considerando operaciones de CRUD.         | 4                  | Luis       | Done|
+|      |                                 | T02: Implementación del endpoint de gestión de identidad y acceso | Implementar el endpoint para agregar, obtener, actualizar y eliminar cuentas de usuario y permisos.            | 10                 | Sandro       | Pending|
+|      |                                 | T03: Pruebas del endpoint de gestión de identidad y acceso | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de gestión de identidad y acceso. | 4                  | Jherson    | Pending|
+
+***Además, se incluye en la herramienta recomendada que es Trello.***
+<img src="https://raw.githubusercontent.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/main/images/sprint3.png">
+#### <a name="_toc163674911"></a>Enlace: <https://trello.com/invite/b/Ka4aLfV6/ATTI1d0cf2279a00877795baf1227e4b3fc339D6E351/sprint3hormonalcare>
+####
+##### 5.2.3.3. Development Evidence for Sprint Review.
+####
+En cuanto a los avances de la implementación de nuestro tercer sprint, se puede observar que:
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|hormonal-care-backend| Feature/medical-record-medication |3fad856|feat(medical-record-medication): added medication aggregate and value objects.|-|30/05/2024|
+|hormonal-care-backend| Feature/medical-record-medication |cac397c|feat(medical-record-medication): added interface MedicationCommandService|-|30/05/2024|
+|hormonal-care-backend| Feature/medical-record-reason-of-consultation |4f36c05|feat(ReasonOfConsultationQueryServiceImpl): added class that implements jpa repository and handle methods|-|30/05/2024|
+|hormonal-care-backend| Feature/medical-record-reason-of-consultation|997c7e9|feat(ReasonOfConsultationCommandService): added a new method in the interface to update information with a command |-|2/06/2024|
+|hormonal-care-backend| Feature/medical-record-treatment |1db2495|feat(UpdateTreatmentCommandFromResourceAssembler): creating UpdateTreatmentCommandFromResourceAssembler|Introduce MedicalExams component to display patient's medical examination results|2/06/2024|
+
+
+
+##### 5.2.3.4. Testing Suite Evidence for Sprint Review.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|Acceptance-Test| US51.feature |474174b|Create US51.feature|-|7/06/2024|
+|Acceptance-Test| US52.feature |0e9f7b0|Create US52.feature|-|7/06/2024|
+|Acceptance-Test| US53.feature |cc368d1|Create US53.feature|-|7/06/2024|
+|Acceptance-Test| US54.feature|18a6135|Create US54.feature|-|7/06/2024|
+|Acceptance-Test| US55.feature |0dae3bc|Create US55.feature|-|7/06/2024|
+|Acceptance-Test| US56.feature |b067c80|Create US56.feature|-|7/06/2024|
+|Acceptance-Test| US57.feature|b61b43b|Create US57.feature |-|7/06/2024|
+|Acceptance-Test| US58.feature |6d60a64|Create US58.feature|-|7/06/2024|
+
+##### 5.2.3.5. Execution Evidence for Sprint Review.
+En este Sprint, nuestro equipo se enfocó en la implementación del backend de la aplicación Hormonal Care. Hemos desarrollado los principales endpoints necesarios para la funcionalidad de la aplicación, permitiendo la gestión de historia medica con, registro de medicación, tipos de medicamentos, receta medica, razones de consulta, tratamientos médicos, exámenes médicos y sus tipos, calendario y perfiles como doctor y paciente. A continuación, se presentan los endpoints implementados:
+
+
+### Capturas de Pantalla
+A continuación se presentan capturas de pantalla de las principales vistas implementadas:
+
+***-reason-of-consultation***
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/postman1.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/postman2.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/postman3.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/deploy1.png?raw=true">
+
+***-medications***
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/postman4.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/postman6.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/postman9.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/deploy2.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/deploy3.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/deploy4.png?raw=true">
+
+***-medical-exams***
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/postman10.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/deploy5.png?raw=true">
+
+***-treatments***
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/postman14.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/postman15.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/deploy8.png?raw=true">
+
+***-Calendar***
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/postman12.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/deploy7.png?raw=true">
+
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+En este tercer Sprint tenemos los siguientes servicios:
+
+| EndPoint                      | Detalles                                                                                      |
+|-------------------------------|-----------------------------------------------------------------------------------------------|
+| /calendar                     | En esta ruta se muestra el calendario del usuario.                                            |
+| /profiles                     | En esta ruta se gestionan los perfiles.                                                       |
+| /medications                  | En esta ruta se gestionan los registros de medicación (agregar, obtener, actualizar, eliminar).|
+| /medications/{id}             | Obtiene, actualiza o elimina un registro de medicación específico.                            |
+| /prescriptions                | En esta ruta se gestionan las inscripciones médicas (agregar, obtener, actualizar, eliminar).  |
+| /prescriptions/{id}           | Obtiene, actualiza o elimina una inscripción médica específica.                               |
+| /medicationTypes              | En esta ruta se gestionan los tipos de medicamentos (agregar, obtener, actualizar, eliminar).  |
+| /medicationTypes/{id}         | Obtiene, actualiza o elimina un tipo de medicamento específico.                               |
+| /reasonOfConsultation         | En esta ruta se gestionan las razones de consulta (agregar, obtener, actualizar, eliminar).    |
+| /reasonOfConsultation/{id}    | Obtiene, actualiza o elimina una razón de consulta específica.                                |
+| /treatments                   | En esta ruta se gestionan los tratamientos médicos (agregar, obtener, actualizar, eliminar).   |
+| /treatments/{id}              | Obtiene, actualiza o elimina un tratamiento médico específico.                                 |
+
+Además, con respecto a los métodos HTTP permitidos, algunos endpoints podrían no tener todos los métodos debido a la lógica del negocio.
+- **GET**: Utilizado para obtener información. Todos los endpoints deben admitir este método.
+- **POST**: Utilizado para agregar nuevos registros.
+- **PUT/PATCH**: Utilizado para actualizar información existente. Algunos endpoints podrían no admitir PUT, pero sí admitir PATCH si solo necesitan actualizaciones parciales.
+- **DELETE**: Utilizado para eliminar registros existentes. Algunos endpoints podrían no admitir este método por razones de seguridad o integridad de los datos.
+  
+##### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+Para llevar a cabo la implementación del despliegue automático de nuestra aplicación HormonalCare, utilizamos las siguientes herramientas:
+
+Para realizar el despliegue automático de nuestra Landing Page, utilizamos la función que nos brinda Github Pages, donde pudimos alojar el código de nuestra página para que, mediante la función, se pueda visualizar en un enlace autogenerado. El enlace de nuestra Landing Page es el siguiente: [https://upc-open-source-ninja-code.github.io/Landing-Page/].
+
+Para realizar el despliegue automático de nuestra Web Application, utilizamos Netlify para alojar nuestro código desarrollado y generar una página web en base al despliegue del desarrollo. El enlace de nuestro servicio es el siguiente: [https://main--stupendous-kangaroo-4e2bfa.netlify.app/selectRole].
+
+Para el despliegue del Back-End, hemos utilizado Railway, donde subimos el repositorio del backend y configuramos MySQL.
+##### A continuación se muestran las evidencias: 
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/evidence1.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/evidence2.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/evidence3.png?raw=true">
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/evidence4.png?raw=true">
+
+**-Prueba de API Rest desplegada usando rail way para el endpoint medications:**
+
+<img src = "https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/deploy2.png?raw=true">
+[https://hormonal-care-backend.up.railway.app/api/v1/medical-record/medications]
+
+##### 5.2.3.8. Team Collaboration Insights during Sprint.
+En la presente entrega, se llevaron a cabo avances del backend de la aplicación web usando como software al IDE IntelliJ Idea y git. De las misma forma que en entregas anteriores, se dividió las partes del bounded context de Medical Record entre los integrantes del grupo. Se creó el repositorio dentro de la organización NinjaCode en donde cada alumno creó su rama para trabajar en el feature asignado. Una vez que sus implementaciones estaban realizadas de forma correcta, cada participante llevaba los commits de su rama a la rama Develop.
+<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/evidenceSprint31.png?raw=true" width=400>
+
+
+<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/evidenceSprint32.png?raw=true" width=400>
+
+
+### 5.3. Validation Interviews
+
+#### 5.3.1. Diseño de Entrevistas
+
+##### Segmento 1: Paciente con enfermades hormonales.
+**Landing Page**
+- **Navegación a través de todas las sección de la landing page.**
+**Principales tareas en la aplicación**
+- **Navegación a través de la aplicación web**
+ 
+**User Flow:**
+1. Para este objetivo el paciente se encuentra en la página de log in de la aplicación y al hacer click en el botón register, se le dirigirá a una pestaña en la que podrá seleccionar su tipo de usuario. Luego de seleccionar la opción de Paciente como tipo de usuario, se le redirigirá a una instancia en la que podrá llenar un formulario con sus datos. Una vez completados los datos y le dé click al botón de Register, se le dirigirá al home de la aplicación
+2. Con el paciente se encuentre en la página de login de la aplicación, digite sus credenciales y haga clic en el botón login, será redirigido a la vista principal del paciente.
+3. Cuando el paciente se encuentra en la vista principal y haga clic en el icono de calendario del toolbar principal, el sistema desplegará un calendario para que el paciente pueda ver las fechas de sus próximas citas.
+4. Con el paciente se encuentre en la vista principal de la aplicación y haga clic sobre el icono de su foto de perfil en la barra de navegación, el paciente podrá acceder a su perfil y poder editar su información personal.
+
+**Preguntas**
+- ¿Cómo describirías tu experiencia general al usar la aplicación HormonalCare?
+- ¿Qué fue lo primero que pensaste o sentiste al ver la landing page y la interfaz de la aplicación?
+- ¿Qué tan intuitiva encontraste la navegación dentro de la aplicación?
+- ¿Qué funcionalidades de la aplicación te parecieron más útiles y por qué?
+- ¿Hay algún aspecto o característica de la aplicación que realmente te haya impresionado? ¿Cuál y por qué?
+- ¿Encontraste alguna dificultad o problema mientras usabas la aplicación? ¿Puedes describirlo?
+- ¿Te sentiste bien informado(a) durante tu uso de la aplicación? ¿Hubo algo que te resultó confuso o poco claro?
+- ¿La aplicación cumplió con tus expectativas iniciales? ¿En qué aspectos sí o no?
+- ¿Cómo te resultó la experiencia de acceder y gestionar tu información médica desde la sección de Historia Médica?
+- ¿Qué cambios o mejoras sugerirías para que la aplicación sea más efectiva y satisfactoria para ti como paciente?
+
+### Segmento 2: Médicos endocrinólogos
+
+**Landing Page**
+- **Navegación a través de todas las sección de la landing page.**
+**Principales tareas en la aplicación**
+- **Navegación a través de la aplicación web**
+
+**User Flow:**
+1. Seleccionar el apartado de registro como médico endocrinólogo, luego ingresar sus datos personales y adjunta los documentos que validen su cargo como especialista.
+2. Con el médico endocrinólogo se encuentre en la página de login de la aplicación, digite sus credenciales y haga clic en el botón login, será redirigido a la vista principal del médico endocrinólogo.
+3. Con el médico endocrinólogo se encuentre en la vista principal de la aplicación y haga clic sobre el icono de su foto de perfil en la barra de navegación, el paciente podrá acceder a su perfil y poder editar su información personal.
+
+**User Flow: P**
+1. 
+**Preguntas Principales**
+- ¿Cómo describirías tu experiencia general al usar la aplicación HormonalCare?
+- ¿Qué fue lo primero que pensaste o sentiste al ver la landing page y la interfaz de la aplicación?
+- ¿Qué tan intuitiva encontraste la navegación dentro de la aplicación?
+- ¿Qué funcionalidades de la aplicación te parecieron más útiles y por qué?
+- ¿Hay algún aspecto o característica de la aplicación que realmente te haya impresionado? ¿Cuál y por qué?
+- ¿Encontraste alguna dificultad o problema mientras usabas la aplicación? ¿Puedes describirlo?
+- ¿Te sentiste bien informado(a) durante tu uso de la aplicación? ¿Hubo algo que te resultó confuso o poco claro?
+- ¿La aplicación cumplió con tus expectativas iniciales? ¿En qué aspectos sí o no?
+- ¿Cómo te resultó la experiencia de acceder y gestionar la información de tus pacientes desde la sección de Historia Clínica?
+- ¿Qué cambios o mejoras sugerirías para que la aplicación sea más efectiva y satisfactoria para ti como médico?
+
+## 5.3.2. Registro de Entrevistas
+##### >Segmento de usuario – Médicos endocrinólogos.
+
+***Médico 1:***
+| Datos del médico: | Entrevista |
+|---|---|
+|<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/EntrevistaValidacionLuisChinchihualpa.png?raw=true" width=400>|  |
+|  <p>Nombres:  Luis Hernán</p> <p>Apellidos: Chinchihualpa Montes</p> <p> Edad: 53 años</p> <p> Localidad: La Molina </p> <p> Timing: 0:00 </p> <p> Duración: 4:27 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUEaz4J90lFMouNG4ZSKBToBUy8zFKJsEID0gkmdQk_J5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DnY7i3]</p>|   |
+| Resumen:<p>
+El Dr. Luis Chinchihualpa encontró la aplicación novedosa y útil para el monitoreo de pacientes. Destacó la intuitividad de la navegación y la facilidad de uso ya que le resulta familiar debido a su parecido con sistemas con los que ha interactuado en su trabajo, así como las funcionalidades de organización de datos y programación de citas. Sin embargo, sugirió mejoras como la inclusión de alertas y notificaciones sobre alergias y antecedentes quirúrgicos, y un acceso más rápido a la cartera de pacientes. También mencionó la necesidad de aclarar el proceso de pago y recomendó la integración de billeteras digitales. En general, la aplicación cumplió sus expectativas y la consideró dinámica y fluida.</p> | 
+
+
+***Médico 2:***
+| Datos del médico: | Entrevista |
+|---|---|
+| <img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/EntrevistaRevisionLuciaQuispesivana.png?raw=true" width=400> | |  
+|  <p>Nombres:  Lucia Barbara </p> <p>Apellidos: Quispesivana Tapia</p> <p> Edad: 33 años</p> <p> Localidad: San Juan de Lurigancho</p> <p> Timing: 4:27 </p> <p> Duración: 4:54 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUEaz4J90lFMouNG4ZSKBToBUy8zFKJsEID0gkmdQk_J5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DnY7i3]</p>| |
+| Resumen: <p>Lucia encontró la herramienta muy útil y cree que facilitaría su trabajo. Le llamó la atención la colorimetría y el diseño de los botones. Considera que el uso es fácil y accesible para cualquier médico. Especialmente le gustó el botón de historia clínica por su intuitividad en la razón, diagnóstico y exámenes. Aprecia la distribución de la información. Sugiere que los médicos puedan manipular los exámenes médicos, no solo los pacientes, y que se incluyan más detalles en el tratamiento, como fotos para un mejor seguimiento. Valora la didáctica y minimalista aplicación, la cual cumplió sus expectativas. Sugiere agregar estadísticas de la evolución a lo largo del tiempo como posible mejora. </p> | 
+
+
+***Médico 3:***
+| Datos del médico: | Entrevista |
+|---|---|
+| <img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/EntrevistaValidacionErnestoRequejo.png?raw=true" width=300 height= 200> | |
+|  <p>Nombres:  Ernesto </p> <p>Apellidos: Requejo</p> <p> Edad: 27 años</p> <p> Localidad: San Isidro </p> <p> Timing: 9.21 </p> <p> Duración: 4:41 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUEaz4J90lFMouNG4ZSKBToBUy8zFKJsEID0gkmdQk_J5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DnY7i3]</p>| |
+| Resumen:<p>El Dr. Ernesto Requejo, médico general y especialista en endocrinología, encontró la aplicación muy intuitiva y fácil de usar. Destacó la funcionalidad del calendario, que facilita la gestión de citas, y la similitud con los sistemas del seguro, lo que le resultó familiar y útil. Sin embargo, mencionó la necesidad de mejorar las notificaciones, especialmente para pagos y registros de nuevos pacientes, ya que actualmente no funcionan adecuadamente. Apreció la organización de la información en la historia clínica, que le permite actualizar y gestionar fácilmente los datos de los pacientes. En general, la aplicación cumplió con sus expectativas, aunque subrayó la importancia de mejorar las notificaciones para optimizar el servicio.</p> | 
+
+
+##### >Segmento de usuario – Pacientes con enfermedades hormonales.
+
+***Paciente 1:***
+| Datos del paciente: | Entrevista |
+|---|---|
+| <img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/paciente1-vali.png?raw=true" width=400> | |
+|  <p>Nombres:  Joaquin </p> <p>Apellidos: Benavides</p> <p> Edad: 20 años</p> <p> Localidad: San Miguel </p> <p> Timing: 14:02 </p> <p> Duración: 4:02 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUEaz4J90lFMouNG4ZSKBToBUy8zFKJsEID0gkmdQk_J5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DnY7i3]</p>| |
+| Resumen:<p>
+Joaquín, de 20 años y diagnosticado con hipotiroidismo en San Miguel, describe su experiencia con la aplicación HormonalCare como positiva. La encuentra intuitiva y eficiente para gestionar citas y su historial médico. Destaca la landing page moderna y profesional, y aunque la navegación es buena, sugiere que la búsqueda de doctores podría tener filtros más avanzados. Las notificaciones automáticas para citas y medicamentos le parecen especialmente útiles. Sin embargo, señala dificultades menores al actualizar su información médica y sugiere mejorar la intuición en esta área. También propone simplificar el registro, añadir tutoriales y mejorar los filtros de búsqueda de doctores para una experiencia más personalizada. En general, la aplicación cumple sus expectativas en gestión de citas y acceso al historial médico, pero espera más opciones de personalización y mejoras en la interfaz.</p> | 
+
+***Paciente 2:***
+| Datos del paciente: | Entrevista |
+|---|---|
+|<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/capentrevista-val-arnhol.png?raw=true" width=400>| |
+|  <p>Nombres:  Arnhol Alfredo </p> <p>Apellidos: Castrejón Calderon</p> <p> Edad: 19 años.</p> <p> Localidad: La Victoria </p> <p> Timing: 18:04 </p> <p> Duración: 4:51 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUEaz4J90lFMouNG4ZSKBToBUy8zFKJsEID0gkmdQk_J5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DnY7i3]</p>|  |
+| Resumen:<p> El paciente Arnhol con hipotiroidismo describe que su experiencia al usar la app de "HormonalCare" fue buena, porque se veía muy bien y estructurado. Además, indica que al ver la landing page y la interfaz web le intereso mucho que la aplicación pueda ayudarle a manejar su historial medico y tratamiento. Luego, menciona que le pareció sencilla la navegación ya que todo es por medio de clicks e indicaciones. Después, el paciente expresa que las funciones que le parecieron más útiles fueron la de comunicación con el médico, calendario, el medicamento que debe consumir, la historia médica y las notificaciones de citas medicas. Finalmente, menciona que la aplicación no le pareció confusa y no tuvo problemas.</p> | 
+
+
+***Paciente 3:***
+| Datos del paciente: | Entrevista |
+|---|---|
+| <img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/EntrevistaValidacionSebastianLobato.png?raw=true" width=400> | |
+|  <p>Nombres:  Alicia Alison </p> <p>Apellidos: Garrido Lujan</p> <p> Edad: : 21 años</p> <p> Localidad: Surco </p> <p> Timing: 22.55 </p> <p> Duración: 3:30 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUEaz4J90lFMouNG4ZSKBToBUy8zFKJsEID0gkmdQk_J5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DnY7i3]</p>| |
+| Resumen:<p>
+Alison, de 21 años, paciente de hipotiroidismo, describe su experiencia con HormonalCare como positiva en general. La aplicación tiene una interfaz limpia y fácil de usar, lo que facilita la gestión de su salud hormonal. La landing page y la interfaz transmiten profesionalismo y confianza, generando una buena primera impresión. La navegación es intuitiva y bien organizada, sin dificultades para encontrar y utilizar las funcionalidades. Alison encontró especialmente útiles los recordatorios de medicación y citas. Le impresiono el apartado para encontrar a medicos especialistas ya que puede visualizar con detalle su informacion antes de su contratacion. No encontro ninguna dificultad. La aplicación cumplió con la mayoría de sus expectativas. Gestionar su información médica desde la sección de Historia Médica fue fácil y eficiente, con una buena organización cronológica de los datos.</p> | 
+
+#### 5.3.3. Evaluaciones según heurísticas.
+
+**Doctores**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Desarrollo de Aplicaciones Open Source  
+**SECCIÓN:** SW51  
+**PROFESORES:** Todos  
+**AUDITOR:** Grupo NinjaCode  
+**CLIENTE(S):** Dr. Luis Chinchihualpa, Dr. Ernesto Requejo, Dra. Lucía Quispesivana  
+**SITE o APP A EVALUAR:** HormonalCare  
+
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+- Registro de un usuario nuevo
+- Visualización de la pestaña principal
+- Acceso y gestión de la historia clínica
+- Programación de citas médicas
+- Visualización del calendario de citas
+- Gestión de pagos
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+- Compartir registros entre usuarios
+- Integración con otros sistemas médicos externos
+- Reportes avanzados de evolución del paciente
+- Manejo de estadísticas detalladas
+
+## ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo en la próxima versión. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+## TABLA RESUMEN
+
+| #  | Problema                                                          | Escala de severidad | Heurística/Principio violada(o)                 |
+|----|-------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1  | Falta de notificaciones para pagos y registros de nuevos pacientes | 3                   | Usability: Feedback y visibilidad               |
+| 2  | Necesidad de menús desplegables y base de datos editable para exámenes médicos | 4                   | Usability: Flexibilidad y eficiencia de uso     |
+| 3  | Falta de visualización de cartera de pacientes                    | 2                   | Information Architecture: Is it usable?         |
+| 4  | Interfaz no especifica claramente el proceso de pago              | 3                   | Usability: Claridad y simplicidad               |
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1: Falta de notificaciones para pagos y registros de nuevos pacientes**  
+**Severidad:** 3  
+**Heurística violada:** Usability - Feedback y visibilidad  
+**Problema:** La aplicación no envía notificaciones adecuadas sobre los pagos de citas y el registro de nuevos pacientes, lo cual puede causar confusión y retrasos en la atención.  
+
+<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/heuristicaDoctor1.png?raw=true" width=400>
+
+**Recomendación:** Implementar un sistema de notificaciones claro y visible que informe a los médicos y pacientes sobre el estado de los pagos y registros.
+
+**PROBLEMA #2: Necesidad de menús desplegables y base de datos editable para exámenes médicos**  
+**Severidad:** 4  
+**Heurística violada:** Usability - Flexibilidad y eficiencia de uso  
+**Problema:** La aplicación no permite modificar directamente la información de exámenes médicos, limitando la flexibilidad y eficiencia del uso.  
+
+<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/heuristicaDoctor2.png?raw=true" width=400>
+
+**Recomendación:** Implementar menús desplegables y una base de datos editable para que tanto médicos como pacientes puedan gestionar adecuadamente los exámenes médicos.
+
+**PROBLEMA #3: Falta de visualización de cartera de pacientes**  
+**Severidad:** 2  
+**Heurística violada:** Information Architecture - Is it usable?  
+**Problema:** Ausencia de un panel de visualización de todos los pacientes con los que el doctor cuenta.  
+
+<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/heuristicaDoctor3.png?raw=true" width=400>
+
+**Recomendación:** Añadir un panel en el home de doctor para que pueda visualizar todos sus pacientes.
+
+**PROBLEMA #4: Interfaz no especifica claramente el proceso de pago**  
+**Severidad:** 3  
+**Heurística violada:** Usability - Claridad y simplicidad  
+**Problema:** Los usuarios encuentran confuso el proceso de pago dentro de la aplicación, lo que puede llevar a errores y pagos no completados debido a que no aparece el modal del pago.  
+
+<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/heuristicaDoctor4.png?raw=true" width=400>
+
+**Recomendación:** Clarificar el proceso de pago con instrucciones detalladas y guías visuales para asegurar que los usuarios comprendan cada paso.
+
+
+# **Pacientes**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Desarrollo de Aplicaciones Open Source  
+**SECCIÓN:** SW51  
+**PROFESOR:** Angel Augusto Velasquez Nuñez  
+**AUDITOR:** NinjaCode  
+**CLIENTE(S):** Arnhol Castrejon, Joaquin Benavides, Alicia Garrido  
+**SITE o APP A EVALUAR:** HormonalCare  
+
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+- Registro de un usuario nuevo
+- Visualización de la pestaña principal
+- Acceso y gestión de la historia clínica
+- Programación de citas médicas
+- Visualización del calendario de citas
+- Gestión de pagos
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+- Compartir registros entre usuarios
+- Integración con otros sistemas médicos externos
+- Reportes avanzados de evolución del paciente
+- Manejo de estadísticas detalladas
+
+## ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo en la próxima versión. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+## TABLA RESUMEN
+
+| #  | Problema                                                          | Escala de severidad | Heurística/Principio violada(o)                 |
+|----|-------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1  | Falta de filtros avanzados en la búsqueda de doctores             | 3                   | Usability: Flexibilidad y eficiencia de uso     |
+| 2  | Dificultad para actualizar información médica en el perfil        | 2                   | Usability: Claridad y simplicidad               |
+| 3  | Interfaz de la sección de elección de doctor necesita más detalles| 2                   | Usability: Feedback y visibilidad               |
+| 4  | Falta de tutorial para guiar al usuario en las características principales | 2                   | Usability: Ayuda y documentación                |
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1: Falta de filtros avanzados en la búsqueda de doctores**  
+**Severidad:** 3  
+**Heurística violada:** Usability - Flexibilidad y eficiencia de uso  
+**Problema:** La aplicación no ofrece filtros avanzados para buscar doctores, lo que limita la precisión y personalización en la búsqueda de un médico especializado.  
+<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/heurisiticapaciente1.png?raw=true" width=400>
+
+**Recomendación:** Implementar filtros avanzados por especialidad, ubicación y otros criterios relevantes para mejorar la precisión en la búsqueda de doctores.
+
+**PROBLEMA #2: Dificultad para actualizar información médica en el perfil**  
+**Severidad:** 2  
+**Heurística violada:** Usability - Claridad y simplicidad  
+**Problema:** Los usuarios encuentran confuso el proceso de actualización de la información médica en su perfil, lo que puede llevar a errores o información desactualizada.  
+<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/heurisiticapaciente2.png?raw=true" width=400>
+
+**Recomendación:** Simplificar el proceso de actualización de información médica y añadir indicaciones claras sobre cómo editar los campos necesarios.
+
+**PROBLEMA #3: Interfaz de la sección de elección de doctor necesita más detalles**  
+**Severidad:** 2  
+**Heurística violada:** Usability - Feedback y visibilidad  
+**Problema:** La sección de elección de doctor carece de descripciones detalladas, lo que puede confundir a los usuarios sobre las opciones disponibles.  
+<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/heurisiticapaciente3.png?raw=true" width=400>
+
+**Recomendación:** Añadir descripciones detalladas de cada doctor, incluyendo especialidades, experiencia y opiniones de otros pacientes para facilitar la elección informada.
+
+**PROBLEMA #4: Falta de tutorial para guiar al usuario en las características principales**  
+**Severidad:** 2  
+**Heurística violada:** Usability - Ayuda y documentación  
+**Problema:** La aplicación no incluye un tutorial inicial que guíe al usuario a través de las características principales, lo que puede dificultar la comprensión y el uso eficiente de la aplicación.  
+<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/heurisiticapaciente4.png?raw=true" width=400>
+
+**Recomendación:** Implementar un tutorial interactivo que guíe al usuario por las funcionalidades principales al iniciar la aplicación por primera vez.
+
+
+### 5.4. Video About-the-Product.
+En esta sección, presentamos un video detallado sobre HormonalCare, diseñado para ofrecer una visión completa de sus características, funcionalidades, ventajas y una opinion de un paciente y medico acerca del mismo. 
+
+A continuación, puedes ver el video a través de dos plataformas:
+
+
+
+**Link video en Youtube:** https://youtu.be/STOvoLPNSbs (duracion: 2:15)
+
+**Link video en Microsoft Stream** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EdYnIhWUGZNHujBHghSjEF8Bk0Qr5-x0hvOgADo3-e0jhQ?e=jZ6Dav&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+(duracion: 2:15)
+
+
+<div align="center">
+<img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/imagen%20video%20about%20the%20product.png?raw=true" width=400>
+
+</div>
+
 ## **CONCLUSIONES Y RECOMENDACIONES**
 
 •	Nuestro equipo de NinjaCode ha logrado desarrollar una solución tecnológica innovadora, HormonalCare, que aborda los desafíos críticos en el seguimiento médico de enfermedades hormonales en el Perú. Hemos colaborado estrechamente para diseñar y desarrollar una aplicación que permita una gestión eficiente de registros médicos, seguimiento remoto de niveles hormonales y una comunicación efectiva entre pacientes y profesionales de la salud.
