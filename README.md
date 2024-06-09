@@ -92,7 +92,7 @@ Para respaldar nuestra colaboración y transparencia, presentamos una imagen de 
 
 
 <div  align="center">
-<img src="images/tb2.png">
+<img src="images/capturon.png">
 </div>
 
 ## Contenido
