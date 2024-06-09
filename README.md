@@ -2622,10 +2622,11 @@ A continuación, puedes ver el video a través de dos plataformas:
 
 
 
-**Link video en Youtube:** https://youtu.be/STOvoLPNSbs (duracion: 2:15)
+**Link video en Youtube:** https://youtu.be/j2XcyUNs1fE (duracion: 2:13)
 
-**Link video en Microsoft Stream** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EdYnIhWUGZNHujBHghSjEF8Bk0Qr5-x0hvOgADo3-e0jhQ?e=jZ6Dav&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-(duracion: 2:15)
+**Link video en Microsoft Stream** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EXJj9cieIj1FrVPdCOGKlDcBRXZaW2z2buDuQ_L-oMHnRw?e=RyqCyk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+(duracion: 2:13)
 
 
 <div align="center">
