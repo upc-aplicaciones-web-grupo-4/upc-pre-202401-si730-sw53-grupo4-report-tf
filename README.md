@@ -2183,7 +2183,7 @@ Para la realización de los commits de nuestro segundo Sprint, hemos hecho uso d
 |Time|22:00|
 |Location|Reunión realizada mediante Discord|
 |Prepared By|Astuyauri Calderon Jherson David|
-|Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian/Lobato Pozo Sebastian Valente/Lostaunau Pereira Estéfano Sebastián	/Quispesivana Torres Claudio Sandro|
+|Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian/Hernan Emilio Morales Calderon/Lostaunau Pereira Estéfano Sebastián	/Quispesivana Torres Claudio Sandro|
 |**Sprint Goal & User Stories**||
 |Sprint 3 Goal|Lograr una primera implementación de la API rest para HormonalCare.|
 |Sprint 3 Velocity|45|
@@ -2195,8 +2195,8 @@ Para la realización de los commits de nuestro segundo Sprint, hemos hecho uso d
 
 | ID   | User Story                           | Work-Item / Task                                 | Description                                                                                                           | Estimation (Hours) | Assigned To | Status   |
 |------|--------------------------------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------------|-------------|----------|
-| US51 | Gestión de Medicamentos              | T01: Diseño del endpoint de medicamentos         | Diseñar el endpoint para la gestión de medicamentos, considerando operaciones de CRUD.                                | 4                  | Sebastian   | Done     |
-|      |                                      | T02: Implementación del endpoint de medicamentos | Implementar el endpoint para agregar, obtener, actualizar y eliminar medicamentos en la base de datos.                | 10                 | Sebastian   | Done     |
+| US51 | Gestión de Medicamentos              | T01: Diseño del endpoint de medicamentos         | Diseñar el endpoint para la gestión de medicamentos, considerando operaciones de CRUD.                                | 4                  | Hernan   | Done     |
+|      |                                      | T02: Implementación del endpoint de medicamentos | Implementar el endpoint para agregar, obtener, actualizar y eliminar medicamentos en la base de datos.                | 10                 | Hernan   | Done     |
 |      |                                      | T03: Pruebas del endpoint de medicamentos        | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de medicamentos.     | 4                  | Jherson     | Done     |
 | US52 | Gestión de Receta Médica             | T01: Diseño del endpoint de receta médica        | Diseñar el endpoint para la gestión de recetas médicas , considerando operaciones de CRUD.                       | 4                  | Estefano    | Done     |
 |      |                                      | T02: Implementación del endpoint de receta médica  | Implementar el endpoint para agregar, obtener, actualizar y eliminar recetas médicas en la base de datos.       | 10                 | Jherson    | Done     |
@@ -2208,7 +2208,7 @@ Para la realización de los commits de nuestro segundo Sprint, hemos hecho uso d
 |      |                                      | T02: Implementación del endpoint de razones de consulta | Implementar el endpoint para agregar, obtener, actualizar y eliminar razones de consulta en la base de datos.         | 10                 | Luis        | Done     |
 |      |                                      | T03: Pruebas del endpoint de razones de consulta | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de razones de consulta. | 4                  | Jherson     | Done     |
 | US55 | Gestión de Tratamientos              | T01: Diseño del endpoint de tratamientos         | Diseñar el endpoint para la gestión de tratamientos médicos, considerando operaciones de CRUD.                        | 4                  | Estefano    | Done     |
-|      |                                      | T02: Implementación del endpoint de tratamientos | Implementar el endpoint para agregar, obtener, actualizar y eliminar tratamientos médicos en la base de datos.        | 10                 | Sebastian    | Done     |
+|      |                                      | T02: Implementación del endpoint de tratamientos | Implementar el endpoint para agregar, obtener, actualizar y eliminar tratamientos médicos en la base de datos.        | 10                 | Hernan    | Done     |
 |      |                                      | T03: Pruebas del endpoint de tratamientos        | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de tratamientos.     | 4                  | Sandro     | Done     |
 |      |                                 | T03: Pruebas del endpoint de tratamientos           | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de tratamientos. | 4                  | Sandro     | Done   |
 | US56 | Gestión de Perfiles             | T01: Diseño del endpoint de perfiles               | Diseñar el endpoint para la gestión de perfiles de pacientes y doctores, considerando operaciones de CRUD.       | 4                  | Luis       | Done|
@@ -2216,7 +2216,7 @@ Para la realización de los commits de nuestro segundo Sprint, hemos hecho uso d
 |      |                                 | T03: Pruebas del endpoint de perfiles              | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de perfiles.    | 4                  | Jherson    | Pending|
 | US57 | Gestión de Calendario          | T01: Diseño del endpoint de calendario             | Diseñar el endpoint para la gestión de eventos y citas médicas en el calendario, considerando operaciones de CRUD. | 4                  | Estefano   | Done|
 |      |                                 | T02: Implementación del endpoint de calendario     | Implementar el endpoint para agregar, obtener, actualizar y eliminar eventos y citas médicas en el calendario.  | 10                 | Jherson  | Done|
-|      |                                 | T03: Pruebas del endpoint de calendario            | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de calendario.  | 4                  | Sebastian  | Done|
+|      |                                 | T03: Pruebas del endpoint de calendario            | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de calendario.  | 4                  | Hernan  | Done|
 | US58 | Gestión de Identidad y Acceso  | T01: Diseño del endpoint de gestión de identidad y acceso | Diseñar el endpoint para la gestión de cuentas de usuario y permisos, considerando operaciones de CRUD.         | 4                  | Luis       | Done|
 |      |                                 | T02: Implementación del endpoint de gestión de identidad y acceso | Implementar el endpoint para agregar, obtener, actualizar y eliminar cuentas de usuario y permisos.            | 10                 | Sandro       | Pending|
 |      |                                 | T03: Pruebas del endpoint de gestión de identidad y acceso | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de gestión de identidad y acceso. | 4                  | Jherson    | Pending|
@@ -2332,7 +2332,7 @@ Para el despliegue del Back-End, hemos utilizado Railway, donde subimos el repos
 [https://hormonal-care-backend.up.railway.app/api/v1/medical-record/medications]
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint.
-En la presente entrega, se llevaron a cabo avances del backend de la aplicación web usando como software al IDE IntelliJ Idea y git. De las misma forma que en entregas anteriores, se dividió las partes del bounded context de Medical Record entre los integrantes del grupo. Se creó el repositorio dentro de la organización NinjaCode en donde cada alumno creó su rama para trabajar en el feature asignado. Una vez que sus implementaciones estaban realizadas de forma correcta, cada participante llevaba los commits de su rama a la rama Develop.
+En la presente entrega, se llevaron a cabo avances del backend de la aplicación web usando como software al Rider y git. De las misma forma que en entregas anteriores, se dividió las partes del bounded context de Medical Record entre los integrantes del grupo. Se creó el repositorio dentro de la organización NinjaCode en donde cada alumno creó su rama para trabajar en el feature asignado. Una vez que sus implementaciones estaban realizadas de forma correcta, cada participante llevaba los commits de su rama a la rama Develop.
 <img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/evidenceSprint31.png?raw=true" width=400>
 
 
