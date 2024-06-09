@@ -84,6 +84,17 @@ Para respaldar nuestra colaboración y transparencia, presentamos una imagen de 
 <img src="images/GeneralCommits2.png">
 </div>
 
+TB2:
+
+En la tercera entrega de nuestro informe del proyecto HormonalCare, nos centramos en el desarrollo del backend para crear una API robusta y escalable. Mantenemos nuestro enfoque colaborativo con reuniones periódicas en Discord y utilizando GitHub para la gestión del código y la transparencia, reflejando nuestra participación activa y compromiso continuo en el desarrollo del proyecto.
+
+Para respaldar nuestra colaboración y transparencia, presentamos una imagen de los commits en GitHub, demostrando nuestro compromiso con la participación activa y la responsabilidad compartida en el desarrollo del informe y la aplicación. 
+
+
+<div  align="center">
+<img src="images/tb2.png">
+</div>
+
 ## Contenido
 
 ### [Registro de versiones del informe](#)
