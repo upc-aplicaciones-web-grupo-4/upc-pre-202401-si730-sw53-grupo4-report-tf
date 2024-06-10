@@ -2465,8 +2465,8 @@ Joaquín, de 20 años y diagnosticado con hipotiroidismo en San Miguel, describe
 **Doctores**
 
 **CARRERA:** Ingeniería de Software  
-**CURSO:** Desarrollo de Aplicaciones Open Source  
-**SECCIÓN:** SW51  
+**CURSO:** Aplicaciones Web 
+**SECCIÓN:** SW53  
 **PROFESORES:** Todos  
 **AUDITOR:** Grupo NinjaCode  
 **CLIENTE(S):** Dr. Luis Chinchihualpa, Dr. Ernesto Requejo, Dra. Lucía Quispesivana  
@@ -2550,11 +2550,11 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 # **Pacientes**
 
 **CARRERA:** Ingeniería de Software  
-**CURSO:** Desarrollo de Aplicaciones Open Source  
+**CURSO:** Aplicaciones Web 
 **SECCIÓN:** SW51  
-**PROFESOR:** Angel Augusto Velasquez Nuñez  
+**PROFESOR:** Todos
 **AUDITOR:** NinjaCode  
-**CLIENTE(S):** Arnhol Castrejon, Joaquin Benavides, Alicia Garrido  
+**CLIENTE(S):** Arnhol Castrejon, Joaquin Benavides, Jeremy Quispe
 **SITE o APP A EVALUAR:** HormonalCare  
 
 ## TAREAS A EVALUAR
