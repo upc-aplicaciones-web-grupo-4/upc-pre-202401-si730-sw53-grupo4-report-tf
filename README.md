@@ -2658,6 +2658,13 @@ A continuación, puedes ver el video a través de dos plataformas:
 •	La aplicación HormonalCare representa un avance significativo en la integración de tecnología digital en el campo de la salud. Desde la gestión eficiente de registros médicos hasta la facilitación de videoconsultas y la comunicación fluida entre pacientes y profesionales de la salud, esta innovación promete revolucionar la forma en que se realiza el seguimiento médico de enfermedades hormonales.
 
 
+**Video About-the-Team**
+
+Links: 
+
+[https://youtu.be/6QCwfsOCFR0]
+<br>
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EeOrpWZrVvtIp1f35QqKp_UBPGM2S3cRPKfFTWL-HBGecQ?e=F0qruM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
 
 
 
