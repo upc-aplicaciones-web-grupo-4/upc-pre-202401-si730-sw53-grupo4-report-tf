@@ -2660,6 +2660,12 @@ A continuación, puedes ver el video a través de dos plataformas:
 
 **Video About-the-Team**
 
+Durante el desarrollo del proyecto, cada miembro del equipo ha aportado significativamente en áreas clave como la comunicación oral y escrita, así como en el desarrollo tanto del frontend como del backend. En términos de comunicación, se ha evidenciado una habilidad notable para transmitir ideas de manera clara y efectiva, adaptando el mensaje según la audiencia y facilitando sesiones de retroalimentación para promover la colaboración y el entendimiento mutuo. Esta comunicación efectiva ha sido fundamental para el progreso del proyecto, permitiendo una comprensión integral de los objetivos y desafíos. En cuanto al desarrollo, se ha destacado el compromiso de cada miembro en la implementación de soluciones tanto en el frontend como en el backend. Desde la elaboración de wireframes y mock-ups hasta la creación de endpoints y la corrección de errores, cada miembro ha demostrado un alto nivel de habilidad técnica y un enfoque en la calidad y eficiencia del trabajo realizado. Esta colaboración multidisciplinaria ha sido clave para avanzar de manera coordinada y alcanzar los objetivos establecidos para el proyecto.
+
+<div align="center">
+<img src="images/video-aboutteam.png" width=400>
+</div>
+
 Links: 
 
 [https://youtu.be/6QCwfsOCFR0]
