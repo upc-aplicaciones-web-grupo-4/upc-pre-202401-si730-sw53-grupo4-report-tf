@@ -2361,7 +2361,189 @@ En la presente entrega, se llevaron a cabo avances del backend de la aplicación
 
 
 <img src="https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp/blob/main/images/evidenceSprint32.png?raw=true" width=400>
+### 5.3.3. Sprint 4
 
+#### 5.3.3.1. Sprint Planning 4.
+
+|Sprint #|Sprint 4|
+| - | - |
+|**Sprint Planning Background**||
+|Date|07-06-2024|
+|Time|21:00|
+|Location|Reunión realizada mediante Discord|
+|Prepared By|Astuyauri Calderon Jherson David|
+|Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian / Hernan Emilio Morales Calderon / Lostaunau Pereira Estéfano Sebastián / Quispesivana Torres Claudio Sandro|
+|**Sprint Goal & User Stories**||
+|Sprint 4 Goal|Integrar y conectar el frontend con el backend.|
+|Sprint 4 Velocity|50|
+|Sum of Story Points|50|
+
+#### 5.3.3.2. Sprint Backlog 4.
+
+En la cuarta entrega de nuestro proyecto, conectamos los perfiles de pacientes y doctores con la información de consultas y tratamientos, integrando el frontend y el backend de la aplicación. Además, se ampliará la funcionalidad para asegurar una mejor gestión y visualización de la información médica, incluyendo historial médico, exámenes médicos y reportes externos.
+
+
+| ID   | User Story                           | Work-Item / Task                                     | Description                                                                                                         | Estimation (Hours) | Assigned To | Status   |
+|------|--------------------------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|--------------------|-------------|----------|
+| US59 | Integración de Perfiles con Consultas| T01: Diseño de la integración de perfiles            | Diseñar la integración de los perfiles de pacientes y doctores con la información de consultas y tratamientos.      | 4                  | Luis        | Done     |
+|      |                                      | T02: Implementación de la integración de perfiles    | Implementar la integración en el backend para conectar perfiles con consultas y tratamientos.                       | 12                 | Hernan   | Done     |
+|      |                                      | T03: Pruebas de la integración de perfiles           | Realizar pruebas para asegurar el correcto funcionamiento de la integración.                                        | 6                  | Estefano    | Done     |
+| US60 | Tabla de Pacientes de Hoy            | T01: Diseño del componente de la tabla               | Diseñar el componente frontend para mostrar la lista de pacientes con citas hoy.                                    | 4                  | Sandro      | Done     |
+|      |                                      | T02: Implementación del componente de la tabla       | Implementar el componente frontend y conectar con el backend para obtener la lista de pacientes de hoy.             | 8                  | Luis        | Done     |
+|      |                                      | T03: Pruebas del componente de la tabla              | Realizar pruebas para asegurar que la tabla muestra correctamente la información de pacientes con citas hoy.        | 4                  | Hernan   | Done     |
+| US61 | Gestión de Razones de Consulta       | T01: Implementación del frontend para razones        | Implementar la interfaz frontend para mostrar y gestionar las razones de consulta y sus descripciones.              | 8                  | Jherson     | Done     |
+| US62 | Gestión de Tratamientos y Medicación | T01: Implementación del frontend para tratamientos   | Implementar la interfaz frontend para mostrar y gestionar los tratamientos y medicación asociados a una consulta.    | 8                  | Estefano    | Done     |
+| US63 | Ver Historial Médico del Paciente    | T01: Diseño del componente de historial médico       | Diseñar el componente frontend para mostrar el historial médico detallado de cada paciente.                         | 4                  | Sandro      | Done |
+|      |                                      | T02: Implementación del componente de historial      | Implementar el componente frontend y conectar con el backend para mostrar el historial médico de cada paciente.     | 10                 | Luis        | Done  |
+|      |                                      | T03: Pruebas del componente de historial             | Realizar pruebas para asegurar que el historial médico se muestra correctamente y de manera completa.               | 4                  | Hernan   | Done  |
+| US64 | Añadir Medicación                    | T01: Diseño del formulario de medicación             | Diseñar el formulario frontend para añadir y gestionar la medicación de los pacientes.                              | 3                  | Jherson     | Done  |
+|      |                                      | T02: Implementación del formulario de medicación     | Implementar el formulario frontend y conectar con el backend para gestionar la medicación.                          | 8                  | Estefano    | Done  |
+|      |                                      | T03: Pruebas del formulario de medicación            | Realizar pruebas para asegurar que la medicación se puede añadir y gestionar correctamente.                         | 4                  | Hernan   | Done  |
+| US65 | Ver Resultados de Exámenes Médicos   | T01: Diseño del componente de exámenes médicos       | Diseñar el componente frontend para mostrar los resultados de exámenes médicos subidos por los pacientes.           | 4                  | Sandro      | Done  |
+|      |                                      | T02: Implementación del componente de exámenes       | Implementar el componente frontend y conectar con el backend para mostrar los resultados de exámenes médicos.       | 10                 | Luis        | Done  |
+|      |                                      | T03: Pruebas del componente de exámenes              | Realizar pruebas para asegurar que los resultados de exámenes médicos se muestran correctamente y de manera segura. | 4                  | Hernan   | Done  |
+| US66 | Ver Reportes Externos                | T01: Diseño del componente de reportes externos      | Diseñar el componente frontend para mostrar reportes externos relacionados con el paciente.                        | 4                  | Sandro      | Done |
+|      |                                      | T02: Implementación del componente de reportes       | Implementar el componente frontend y conectar con el backend para mostrar reportes externos relacionados.           | 10                 | Luis        | Done  |
+|      |                                      | T03: Pruebas del componente de reportes              | Realizar pruebas para asegurar que los reportes externos se muestran correctamente y de manera completa.            | 4                  | Hernan   | Done  |
+
+#### Total Story Points Usados: 50 de 50
+
+#### 5.3.3.3. Development Evidence for Sprint Review.
+
+En cuanto a los avances de la implementación de nuestro cuarto sprint, se puede observar que:
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|hormonal-care-app-web-backend| Feature/IAM  |623f7b2|feat: Integration of IAM|-|15/06/2024|
+|hormonal-care-app-web-backend| Feature/medical-record-medication |63fd4ed|feat(medical-record-medication): services, repositories.|-|11/06/2024|
+|hormonal-care-app-web-backend| Feature/medical-record-medical-examn |86bcab5|feat(MedicalExam): Add FK from MedicalRecord and update methods|-|11/06/2024|
+|hormonal-care-frontend| Feature/doctor-view-collage |7f7c6a3|fix(doctor-view-colleague): handle doctor not found error.|-|23/06/2024|
+
+#### 5.3.3.4. Testing Suite Evidence for Sprint Review.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|Acceptance-Test| US59.feature |a84f789|Create US59.feature|-|24/06/2024|
+|Acceptance-Test| US60.feature |b9c63f2|Create US60.feature|-|24/06/2024|
+
+#### 5.3.3.5. Execution Evidence for Sprint Review.
+En este Sprint, nuestro equipo se enfocó en la integración del frontend y el backend. Los endpoints implementados y componentes creados se listan a continuación:
+
+### Capturas de Pantalla
+A continuación se presentan capturas de pantalla de las principales vistas implementadas:
+
+***- Perfiles de Pacientes y Doctores  ***
+<img src="images/doctor profile.png">
+<img src="images/doctorbd.png">
+<img src="images/patient.png">
+<img src="images/patientbd.png">
+
+***- Tabla de Pacientes de Hoy***
+<img src="images/patienttable.png">
+<img src="images/patienttablebd.png">
+
+***- Razones de Consulta***
+<img src="images/reasonofconsultation.png">
+<img src="images/reasonofconsultationbd.png">
+
+***- Tratamientos y Medicación***
+<img src="images/medication.png">
+<img src="images/medicationsbd.png">
+
+***- Tabla de Hoy para pacientes***
+<img src="images/homepatient.png">
+
+#### 5.3.3.6. Services Documentation Evidence for Sprint Review.
+
+En este cuarto Sprint, los siguientes servicios fueron implementados y mejorados:
+
+
+| EndPoint                      | Detalles                                                                                      |
+|-------------------------------|-----------------------------------------------------------------------------------------------|
+| `/api/v1/profile/profile`     | En esta ruta se gestionan los perfiles, ahora conectados con la información de consultas.      |
+| `/api/v1/doctor/doctor`       | Gestión de los perfiles de doctores, incluyendo la creación, actualización y obtención de información.|
+| `/api/v1/doctor/doctor/record/{doctorRecordId}` | Obtención de los registros médicos asociados a un doctor específico.            |
+| `/api/v1/medicalRecords`      | Gestión de los registros médicos, permitiendo la creación y consulta de registros médicos.     |
+| `/api/v1/medical-record/medical-exam` | Gestión de los exámenes médicos, incluyendo la creación y consulta de exámenes.        |
+| `/api/v1/medical-record/medications` | Gestión de medicaciones, incluyendo la creación y consulta de medicaciones.             |
+| `/api/v1/medical-record/treatments`  | Gestión de tratamientos médicos, incluyendo la creación, actualización y eliminación.   |
+| `/api/v1/medical-record/reasons-of-consultation` | Gestión de las razones de consulta (agregar, obtener, actualizar, eliminar). |
+| `/api/v1/medical-record/patient` | Gestión de pacientes, permitiendo la creación, actualización y consulta de información de pacientes. |
+| `/api/v1/medical-record/medical-appointment` | Gestión de citas médicas, incluyendo la creación, consulta, actualización y eliminación de citas. |
+
+Además, se agregaron nuevos controladores y métodos para mejorar la funcionalidad y la integración de los datos en el sistema:
+
+#### doctor-controller
+- **GET** `/api/v1/doctor/doctor/{doctorId}`: Obtiene la información de un doctor por su ID.
+- **PUT** `/api/v1/doctor/doctor/{doctorId}`: Actualiza la información de un doctor por su ID.
+- **POST** `/api/v1/doctor/doctor`: Crea un nuevo perfil de doctor.
+- **GET** `/api/v1/doctor/doctor/profile-id`: Obtiene la información del perfil del doctor.
+
+#### medical-record-controller
+- **POST** `/api/v1/medicalRecords`: Crea un nuevo registro médico.
+- **GET** `/api/v1/medicalRecords/{medicalRecordId}`: Obtiene un registro médico por su ID.
+
+#### type-exam-controller
+- **POST** `/api/v1/medical-record/medical-exam/type-exam`: Crea un nuevo tipo de examen médico.
+- **GET** `/api/v1/medical-record/medical-exam/type-exam/{typeExamId}`: Obtiene un tipo de examen médico por su ID.
+
+#### medication-controller
+- **GET** `/api/v1/medical-record/medications/{medicationId}`: Obtiene información de una medicación por su ID.
+- **PUT** `/api/v1/medical-record/medications/{medicationId}`: Actualiza información de una medicación por su ID.
+- **POST** `/api/v1/medical-record/medications`: Crea una nueva medicación.
+- **GET** `/api/v1/medical-record/medications`: Obtiene la lista de todas las medicaciones.
+- **GET** `/api/v1/medical-record/medications/prescriptions/{prescriptionId}`: Obtiene una prescripción por su ID.
+- **POST** `/api/v1/medical-record/medications/prescriptions`: Crea una nueva prescripción.
+- **GET** `/api/v1/medical-record/medications/medicationTypes`: Obtiene los tipos de medicación.
+- **POST** `/api/v1/medical-record/medications/medicationTypes`: Crea un nuevo tipo de medicación.
+
+#### medical-exam-controller
+- **GET** `/api/v1/medical-record/medical-exam/{medicalExamId}`: Obtiene un examen médico por su ID.
+- **PUT** `/api/v1/medical-record/medical-exam/{medicalExamId}`: Actualiza un examen médico por su ID.
+- **POST** `/api/v1/medical-record/medical-exam`: Crea un nuevo examen médico.
+
+#### treatment-controller
+- **GET** `/api/v1/medical-record/treatments/{treatmentId}`: Obtiene información de un tratamiento por su ID.
+- **PUT** `/api/v1/medical-record/treatments/{treatmentId}`: Actualiza un tratamiento por su ID.
+- **POST** `/api/v1/medical-record/treatments`: Crea un nuevo tratamiento.
+- **GET** `/api/v1/medical-record/treatments/medicalRecordId/{medicalRecordId}`: Obtiene tratamientos asociados a un registro médico.
+
+#### reason-of-consultation-controller
+- **GET** `/api/v1/medical-record/reasons-of-consultation/{reasonOfConsultationId}`: Obtiene una razón de consulta por su ID.
+- **PUT** `/api/v1/medical-record/reasons-of-consultation/{reasonOfConsultationId}`: Actualiza una razón de consulta por su ID.
+- **POST** `/api/v1/medical-record/reasons-of-consultation`: Crea una nueva razón de consulta.
+
+#### patient-controller
+- **GET** `/api/v1/medical-record/patient/{patientId}`: Obtiene información de un paciente por su ID.
+- **PUT** `/api/v1/medical-record/patient/{patientId}`: Actualiza la información de un paciente por su ID.
+- **POST** `/api/v1/medical-record/patient`: Crea un nuevo paciente.
+- **GET** `/api/v1/medical-record/patient/doctor/{patientId}`: Obtiene la lista de doctores asociados a un paciente.
+- **GET** `/api/v1/medical-record/patient/record/{patientRecordId}`: Obtiene el registro médico de un paciente por su ID.
+
+#### medical-appointment-controller
+- **GET** `/api/v1/medical-appointment/{medicalAppointmentId}`: Obtiene información de una cita médica por su ID.
+- **PUT** `/api/v1/medical-appointment/{medicalAppointmentId}`: Actualiza información de una cita médica por su ID.
+- **POST** `/api/v1/medical-appointment`: Crea una nueva cita médica.
+- **DELETE** `/api/v1/medical-appointment/{medicalAppointmentId}`: Elimina una cita médica por su ID.
+
+
+#### 5.3.3.7. Software Deployment Evidence for Sprint Review.
+
+Para la implementación y despliegue automático de nuestra aplicación HormonalCare, utilizamos las siguientes herramientas:
+Primero para eñ despliegue de la landing page, usamos github Pages. El enlace es: [https://upc-aplicaciones-web-grupo-4.github.io/LandingPageAppWeb/](https://upc-aplicaciones-web-grupo-4.github.io/LandingPageAppWeb/).
+Para realizar el despliegue de nuestra Web Application, seguimos utilizando Netlify. El enlace de nuestro servicio es el siguiente: [https://single-page-application-theta.vercel.app/](https://single-page-application-theta.vercel.app/).
+
+Para el despliegue del Back-End, seguimos utilizando Railway, con configuraciones actualizadas para las nuevas funcionalidades.
+**- Prueba de API Rest desplegada usando Railway para la tabla de pacientes de hoy:**
+<img src="images/railway.png">
+<img src="images/profiledeploy.png">
+[https://hormonal-care-backend.up.railway.app/api/v1/profile/profile/1](https://hormonal-care-backend.up.railway.app/api/v1/profile/profile/1)
+
+#### 5.3.3.8. Team Collaboration Insights during Sprint.
+En la presente entrega, se llevaron a cabo avances significativos en la integración del frontend y backend de la aplicación HormonalCare. Se trabajó de manera colaborativa, asignando tareas específicas a cada miembro del equipo y utilizando herramientas como Discord para coordinar las actividades y el seguimiento del progreso.
+
+<img src="images/insightsbackend.png" >
+<img src="images/insightsfrontend.png">
 
 ### 5.3. Validation Interviews
 
