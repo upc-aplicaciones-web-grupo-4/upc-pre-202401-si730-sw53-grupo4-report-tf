@@ -2533,11 +2533,14 @@ Para la implementación y despliegue automático de nuestra aplicación Hormonal
 Primero para eñ despliegue de la landing page, usamos github Pages. El enlace es: [https://upc-aplicaciones-web-grupo-4.github.io/LandingPageAppWeb/](https://upc-aplicaciones-web-grupo-4.github.io/LandingPageAppWeb/).
 Para realizar el despliegue de nuestra Web Application, seguimos utilizando Netlify. El enlace de nuestro servicio es el siguiente: [https://single-page-application-theta.vercel.app/](https://single-page-application-theta.vercel.app/).
 
-Para el despliegue del Back-End, seguimos utilizando Railway, con configuraciones actualizadas para las nuevas funcionalidades.
+Para el despliegue del Back-End, ahora utilizamos un web service y una base de datos , con configuraciones actualizadas para las nuevas funcionalidades.
 **- Prueba de API Rest desplegada usando Railway para la tabla de pacientes de hoy:**
-<img src="images/railway.png">
-<img src="images/profiledeploy.png">
-[https://hormonal-care-backend.up.railway.app/api/v1/profile/profile/1](https://hormonal-care-backend.up.railway.app/api/v1/profile/profile/1)
+<img src="images/bddeploy.png">
+<img src="images/backenddeploy.png">
+<img src="images/postmanprueba.png">
+<img src="images/evidenciadb.png">
+<img src="images/prueba reason of consultation.png">
+[https://webapp-240625213956.azurewebsites.net/api/v1/reason-of-consultation/2](https://webapp-240625213956.azurewebsites.net/api/v1/reason-of-consultation/2)
 
 #### 5.3.3.8. Team Collaboration Insights during Sprint.
 En la presente entrega, se llevaron a cabo avances significativos en la integración del frontend y backend de la aplicación HormonalCare. Se trabajó de manera colaborativa, asignando tareas específicas a cada miembro del equipo y utilizando herramientas como Discord para coordinar las actividades y el seguimiento del progreso.
