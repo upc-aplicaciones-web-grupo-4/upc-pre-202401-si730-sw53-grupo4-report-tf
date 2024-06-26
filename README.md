@@ -45,6 +45,7 @@ Ciclo 2024-01
 | TB1     | 11/04/2024 | NinjaCode | Para esta entrega se desarrollaron los capítulos I, II, III, IV y V, y se desplegó la primera versión de la landing page |
 | TP1     | 01/05/2024 | NinjaCode | Se corrigieron detalles del informe como problem statement, assumptions, student outcome, resumen del registro de entrevistas, user personas, user task matrix, ubiquitous language, product backlog, Web Applications Wireflow Diagrams, class diagrams, database diagrams. Se hizo el sprint 2 y se desarrolló la primera versión de la Web Application |
 | TB2     | 06/06/2024 | NinjaCode | Se llevó a cabo la segunda versión de la implementación del frontend y la primera versión del backend de HormonalCare. |
+| TF    | 25/06/2024 | NinjaCode | Se llevó a implementar el frontend con el backend. |
 
 
 ## Project Report Collaboration Insights
@@ -93,6 +94,16 @@ Para respaldar nuestra colaboración y transparencia, presentamos una imagen de 
 
 <div  align="center">
 <img src="images/capturon.png">
+</div>
+
+TF:
+
+En la última entrega del informe del proyecto HormonalCare, nos centramos en la implementación e integración del frontend y backend. Por ello, en el informe se evidencia el sprint 4. Además de las correcciones subsanadas. Mantenemos nuestro enfoque colaborativo con reuniones periódicas en Discord y utilizando GitHub para la gestión del código y la transparencia, reflejando nuestra participación activa y compromiso continuo en el desarrollo del proyecto.
+
+Para respaldar nuestra colaboración y transparencia, presentamos una imagen de los commits en GitHub, demostrando nuestro compromiso con la participación activa y la responsabilidad compartida en el desarrollo del informe y la aplicación. 
+
+<div  align="center">
+<img src="images/insightstf.png">
 </div>
 
 ## Contenido
